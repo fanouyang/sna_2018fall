@@ -1,2 +1,2 @@
-# sna_group_2018fall
-this is our group work for SNA 2018fall
+# sna_2018fall
+this is the database and relevant scripts and explanations for SNA 2018fall

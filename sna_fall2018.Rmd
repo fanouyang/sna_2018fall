@@ -1,0 +1,22 @@
+---
+title: "sna_fall2018"
+output: html_document
+---
+## R Markdown
+
+This is a report of SNA empirical study for 2018 fall......
+
+### Node-level analysis results
+
+### Network-level analysis results
+
+### SNA viz
+```{r}
+all_matrix<- read.csv("/Users/fanouyang/Desktop/sna_2018fall/all_matrix.csv",row.names=1)
+library(sna)
+gplot(all_matrix,gmode="digraph",displaylabels=TRUE,label.cex=0.8,vertex.col="darkolivegreen")
+```
+
+
+
+
